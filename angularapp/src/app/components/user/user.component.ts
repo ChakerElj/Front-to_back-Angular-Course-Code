@@ -11,9 +11,15 @@ import {Component} from "@angular/core";
 
 export class UserComponent {
   // Properties
-  firstName = "Jhon" ;
-  lastName = "Doe" ;
-  age = 30 ;
+  firstName = "Chaker" ;
+  lastName = "Elj" ;
+  age = 21 ;
+
+  address = {
+    street : "Nahj Abed Hmid Mamlouk" ,
+    city : "Ras Jebel" ,
+    postalCode : 7070 ,
+  };
 
   // Methods
   constructor() {
